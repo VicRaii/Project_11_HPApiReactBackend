@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "charactersSeed": "node ./src/utils/seeds/characters.js"
+    "charactersSeed": "node ./src/utils/seeds/characters.js",
+    "vercel-build": "echo 'Skipping build step'"
   },
   "keywords": [],
   "author": "",
