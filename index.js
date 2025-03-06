@@ -10,8 +10,8 @@ app.use(express.json())
 app.use(
   cors({
     origin: [
-      'http://localhost:5173',
-      'https://project-11-hp-api-react-backend.vercel.app'
+      'http://localhost:5173/api/v1/characters',
+      'https://project-11-hp-api-react-backend.vercel.app/api/v1/characters'
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true
