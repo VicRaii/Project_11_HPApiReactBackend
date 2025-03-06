@@ -7,17 +7,7 @@ const charactersRoutes = require('./src/api/routes/characters')
 const app = express()
 
 app.use(express.json())
-app.use(
-  cors({
-    origin: [
-      'http://localhost:5173',
-      'http://localhost:4173',
-      'https://project-11-hp-api-react-backend.vercel.app'
-    ],
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    credentials: true
-  })
-)
+app.use(cors())
 
 connectDB()
 
