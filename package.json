@@ -6,6 +6,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "charactersSeed": "node ./src/utils/seeds/characters.js",
+    "questionsSeed": "node ./src/utils/seeds/questions.js",
     "vercel-build": "echo 'Skipping build step'"
   },
   "keywords": [],
