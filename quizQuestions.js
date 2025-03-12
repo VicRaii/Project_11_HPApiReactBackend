@@ -9,7 +9,7 @@ const questions = [
       'He eats gillyweed'
     ],
     answer: 'He eats gillyweed',
-    level: 1,
+    level: 10000,
     points: 15
   },
   {
