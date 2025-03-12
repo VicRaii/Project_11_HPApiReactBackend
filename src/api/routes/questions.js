@@ -3,4 +3,4 @@ const questionsRouter = require('express').Router()
 
 questionsRouter.get('/', getQuestions)
 
-module.exports = { questionsRouter }
+module.exports = questionsRouter

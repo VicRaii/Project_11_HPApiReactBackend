@@ -3,7 +3,7 @@ const express = require('express')
 const { connectDB } = require('./src/config/db')
 const cors = require('cors')
 const charactersRoutes = require('./src/api/routes/characters')
-const { questionsRouter } = require('./src/api/routes/questions')
+const questionsRouter = require('./src/api/routes/questions')
 
 const app = express()
 
