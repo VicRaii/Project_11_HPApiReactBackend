@@ -14,6 +14,10 @@ const QuestionSchema = new mongoose.Schema(
       type: Array,
       required: true
     },
+    level: {
+      type: Number,
+      required: true
+    },
     points: {
       type: Number,
       required: true
