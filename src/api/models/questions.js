@@ -14,16 +14,9 @@ const QuestionSchema = new mongoose.Schema(
       type: Array,
       required: true
     },
-    point: {
+    points: {
       type: Number,
       required: true
-    },
-    img: {
-      type: String
-    },
-    createdAt: {
-      type: Date,
-      default: new Date()
     }
   },
   {
