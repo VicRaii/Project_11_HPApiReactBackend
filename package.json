@@ -1,0 +1,25 @@
+{
+  "name": "harrypotterapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "charactersSeed": "node ./src/utils/seeds/characters.js",
+    "questionsSeed": "node ./src/utils/seeds/questions.js",
+    "vercel-build": "echo 'Skipping build step'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.11.0"
+  }
+}
