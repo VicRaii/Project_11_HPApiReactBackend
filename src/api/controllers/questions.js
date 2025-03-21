@@ -11,5 +11,3 @@ const getQuestions = async (req, res, next) => {
 }
 
 module.exports = { getQuestions }
-
-//! /QUESTIONS SIGUE FALLANDO AL DESPLEGARSE

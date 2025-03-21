@@ -8,13 +8,7 @@ const questionsRouter = require('./src/api/routes/questions')
 const app = express()
 
 app.use(express.json())
-app.use(
-  cors({
-    origin: 'https://project-11-hpapi-react.netlify.app',
-    methods: 'GET,POST,PUT,DELETE',
-    allowedHeaders: 'Content-Type,Authorization'
-  })
-)
+app.use(cors())
 
 connectDB()
 
